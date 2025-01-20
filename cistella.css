@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: burlywood;
 }
 table {
     width: 100%;
@@ -9,8 +10,18 @@ table {
 }
 table, th, td {
     border: 1px solid black;
+    color: cadetblue;
 }
 th, td {
-    padding: 10px;
+    width: 100%;
     text-align: left;
+    color: blue;
+    background-color: cornsilk;
+}
+button{
+    background-color: red;
+}
+label, input{
+    width: 100%;
+
 }
